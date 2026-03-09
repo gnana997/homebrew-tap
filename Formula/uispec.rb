@@ -11,7 +11,7 @@ class Uispec < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/gnana997/uispec/releases/download/v1.0.0/uispec_1.0.0_Darwin_x86_64.tar.gz"
-      sha256 "257656f853168a9b70ffd623effc3289a8956aa2069552a815c4fa53c75b9c2d"
+      sha256 "1211b95f4991d411c358dd89cd44d1662b938257d51f12cdec3a2e5f8b537fdc"
 
       def install
         bin.install "uispec"
@@ -19,7 +19,7 @@ class Uispec < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/gnana997/uispec/releases/download/v1.0.0/uispec_1.0.0_Darwin_arm64.tar.gz"
-      sha256 "5097beec00530e5b1d170141b04a6ed1c4d57945d96ccec3f290edcdc05b51ac"
+      sha256 "602890feebc47a0ddcfcb8cf54ff0885b6d648cfee5c56fa645eccd018c526f9"
 
       def install
         bin.install "uispec"
@@ -30,14 +30,14 @@ class Uispec < Formula
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
       url "https://github.com/gnana997/uispec/releases/download/v1.0.0/uispec_1.0.0_Linux_x86_64.tar.gz"
-      sha256 "6aa0e292f5bfacc904802e80236274464b6944727b0b68ed4711d5dbcce3828f"
+      sha256 "9480d39c3f24793e75b001f5ffd4bd164658f76b05042ca0d4b734239bdba0eb"
       def install
         bin.install "uispec"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
       url "https://github.com/gnana997/uispec/releases/download/v1.0.0/uispec_1.0.0_Linux_arm64.tar.gz"
-      sha256 "4ac15fdf30c87210a2a40ed598f57c5c820f24a1d025156e20807d9504c04092"
+      sha256 "edb62e53183879d65d10ced265f390e0c67de0a2368aa15aba853d00bc25d824"
       def install
         bin.install "uispec"
       end
