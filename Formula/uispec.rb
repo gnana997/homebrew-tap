@@ -5,21 +5,21 @@
 class Uispec < Formula
   desc "Give AI agents deep knowledge of your component library"
   homepage "https://github.com/gnana997/uispec"
-  version "1.1.0"
+  version "1.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/gnana997/uispec/releases/download/v1.1.0/uispec_1.1.0_Darwin_x86_64.tar.gz"
-      sha256 "bdaf58b63bcea4e2dce651ed6805e09ff9b1069277a36428757eecf1589c4ae9"
+      url "https://github.com/gnana997/uispec/releases/download/v1.1.1/uispec_1.1.1_Darwin_x86_64.tar.gz"
+      sha256 "4caec2f387586641606d0424a2cdd2f0e3a7ace056903a98392a3e3e4fb5eb8e"
 
       def install
         bin.install "uispec"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/gnana997/uispec/releases/download/v1.1.0/uispec_1.1.0_Darwin_arm64.tar.gz"
-      sha256 "2cbc3485b21b3f742db9932c2b3f581bc15644b0a8face2044f6403bbdb44c8f"
+      url "https://github.com/gnana997/uispec/releases/download/v1.1.1/uispec_1.1.1_Darwin_arm64.tar.gz"
+      sha256 "cf27cee94a63141861afbdd1a28618f2149e43baa52afc0cdfcc590adf864c32"
 
       def install
         bin.install "uispec"
@@ -29,15 +29,15 @@ class Uispec < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/gnana997/uispec/releases/download/v1.1.0/uispec_1.1.0_Linux_x86_64.tar.gz"
-      sha256 "0b91d534a46384e9b2137b6c9ea598be2fd9b4e8e000697290ba4e46ff47c8c7"
+      url "https://github.com/gnana997/uispec/releases/download/v1.1.1/uispec_1.1.1_Linux_x86_64.tar.gz"
+      sha256 "380bf8551c93c0af6dff480f9e5950727dcd866032d033aa3fe21d4c3687554c"
       def install
         bin.install "uispec"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/gnana997/uispec/releases/download/v1.1.0/uispec_1.1.0_Linux_arm64.tar.gz"
-      sha256 "0e8f5f1cad1a9fdefcc94dcc30908e1641fa3f931fd3a4e44b7765d0c56a8bc6"
+      url "https://github.com/gnana997/uispec/releases/download/v1.1.1/uispec_1.1.1_Linux_arm64.tar.gz"
+      sha256 "147e8485404f0fa283bef944b515d0979f79a8baf16b30c06e7ea89c142e3487"
       def install
         bin.install "uispec"
       end
