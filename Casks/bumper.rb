@@ -4,12 +4,12 @@ cask "bumper" do
 
   on_macos do
     on_intel do
-      sha256 "baa40204fc7a4d0255230c85963cfc3d6dd8450613a43edb0fee1f08704cff3f"
+      sha256 "f8151af8de6ff449a7a443666dd275e87222ac7fe979eb6a7bee1bf97cea3678"
       url "https://github.com/gnana997/bumper/releases/download/v#{version}/bumper_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/gnana997/bumper/"
     end
     on_arm do
-      sha256 "8941877b42f1a1c4a6c942b2e21055ea7526e37f03f68e6635aa93f31efc4e17"
+      sha256 "f447a37ea2abfb60c0b031eda3d0647bd5020085f6636ce5006b5c925f67e6e3"
       url "https://github.com/gnana997/bumper/releases/download/v#{version}/bumper_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/gnana997/bumper/"
     end
@@ -17,12 +17,12 @@ cask "bumper" do
 
   on_linux do
     on_intel do
-      sha256 "fc78e5f5f785731698907212e8d6078900406a77fe0240acbf8125797cf2dd2c"
+      sha256 "1e5ee0c4bcf3954dd1024ccacbb5957602a9f4b62b213d0ef3c55d8feb69921b"
       url "https://github.com/gnana997/bumper/releases/download/v#{version}/bumper_#{version}_linux_amd64.tar.gz",
         verified: "github.com/gnana997/bumper/"
     end
     on_arm do
-      sha256 "f8da77be7baf3757c6863b5c96b85525ce523b30a287ecc93f1be04290cdb8cb"
+      sha256 "0f3e16892818195d56b15b6b7567b95ae92d4731ce8ef48fb4b957a0b37918f2"
       url "https://github.com/gnana997/bumper/releases/download/v#{version}/bumper_#{version}_linux_arm64.tar.gz",
         verified: "github.com/gnana997/bumper/"
     end
